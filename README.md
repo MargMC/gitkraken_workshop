@@ -1,3 +1,4 @@
+
 # GitKraken Workshop
 Instructions for code snippets as a part of our GUI GitKraken workshop
 
