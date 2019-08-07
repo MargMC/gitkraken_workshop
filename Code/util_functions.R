@@ -19,7 +19,9 @@ montecarloPi <- function(trials) {
   }
   return((count*4) / trials)
 }
-
+# Square function
+# adapted from https://hbctraining.github.io/Intro-to-R/lessons/03_introR-functions-and-arguments.html#user-defined-functions
+# and https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/
 
 # Estimate Pi
 est.pi <- function(n){
@@ -50,7 +52,8 @@ square_it <- function(x){
 # Anscombe's quartet
 anscombes_quartet <- {
     library(Tmisc)
-
+# Anscombe's quartet
+# Examples from https://www.r-bloggers.com/using-and-abusing-data-visualization-anscombes-quartet-and-cheating-bonferroni/
     # Load the data and look at it
     data(quartet)
     str(quartet)
